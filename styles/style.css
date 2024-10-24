@@ -1,0 +1,620 @@
+/*
+Authors: Vi, Lauchie, Henry, Nathan, Ethan
+Purpose: To add styling to our html and improve the readability and clarity
+*/
+
+
+/*
+    Rather than redefining tags I think it'll work best if we use classes.
+    Because I'm pretty sure that if we start by just redefining tags we'll have to use classes anyways.
+    so it saves us... a stupid amount of work to implement it now rather than later
+    -Vi
+*/
+
+body	{
+	/*overflow:hidden;*/
+}
+
+#manager_button{
+	/*float:right;*/
+}
+
+#table_spacing td{
+	padding:15px;
+}
+
+#table_spacing {
+	margin:auto;
+	margin-top:3em;
+	text-align:center;
+	Margin-bottom:3em;
+}
+
+#table_spacing h1{
+	text-align:center;
+	margin:auto;
+	color:#551dad;
+	background-color:#e4e1e1;
+	border: 5px solid #551dad;
+	border-radius: 50px;
+	max-width:810px;
+}
+
+
+#submitsection input[type=reset]{
+	background-color: #551dad;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	border: 5px solid #9474fc;
+	border-radius: 50px;
+	font-weight:bold;
+	font-size:2em;
+	max-width:280px;
+	margin-top:1em;
+
+}
+
+#submitsection input[type=submit]{
+	background-color: #551dad;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	border: 5px solid #9474fc;
+	border-radius: 50px;
+	font-weight:bold;
+	font-size:2em;
+	max-width:280px;
+	margin-top:1em;
+
+}
+
+
+#container {
+	height: 125px;
+	text-align:justify;
+	margin-left:2.5%;
+	margin-right:2.5%;
+	min-width: 750px;
+	border-bottom: 5px solid #551dad;
+	width:95%;
+}
+
+#container div {
+	display:inline-block;
+	min-width: 150px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#container div form select	{
+	width: 150px;
+}
+#container div form input[type=text]	{
+	width: 150px;
+}
+
+#container:after {
+	content:'';
+	width:100%;
+	display:inline-block;
+}
+
+input[type=submit]{
+	background-color: #9474fc;
+	color: white;
+	padding: 8px 16px;
+	text-decoration: none;
+	cursor: pointer;
+	border: 4px solid #551dad;
+	border-radius: 25px;
+	font-weight:bold;
+	font-size:1em;
+	max-width:330px;
+	margin-top: 0.5em;
+	margin-bottom:1em;
+}
+
+
+#receipt_center{
+	text-align:center;
+	margin:auto;
+	color:#551dad;
+	background-color:#e4e1e1;
+	border: 5px solid #551dad;
+	border-radius: 50px;	
+	max-width:300px;
+	margin-bottom:5 em;
+	margin-top:3em;
+}
+
+#receipt_submit{
+	/*text-align:center;
+	margin:auto;*/
+	display:inline-block;
+}
+
+#receipt_submit_2 input[type=submit]{
+	margin: 0 auto;
+	display:block;
+}
+
+
+#footerbottom{
+	margin-left: 0%;
+	margin-right: 0%;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+aside#errorfix{
+	float:right;
+	margin-left: -30%;
+}
+
+.fix_data_heading{
+	color:#551dad;
+	margin:auto;
+	text-align:center;
+	max-width:300px;
+	background-color:#c3c3c3;
+	border: 5px solid #551dad;
+	border-radius: 50px;
+	
+}
+
+dt{
+	font-weight: bold;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+body div img{
+	padding: 1em 1.5em;
+}
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #c3c3c3;
+    min-width: 600px;
+}
+#teaminfo {
+    max-height:130px;
+    font-size: small;
+}
+.enquire{
+	padding: 1em;
+	margin-top:20%;
+	width:80%;
+	margin:auto;
+	text-align:center;
+}
+
+.fieldsetcenter{
+	margin:auto;
+	
+}
+
+.displaytitle{
+	color:#361073;
+	padding: 5px 5px;
+    border-top: 4px double #551dad;
+    text-align: center;
+}
+
+.moviedisplay {
+    display:block;
+}
+.displaymovie{
+	border: 5px solid #551dad;
+	border-radius: 50px;
+	margin: 1em;
+	padding: 1em;
+	width: 20%;
+}
+
+#teaming {
+    padding: 0px;
+}
+
+.moviedisplay a img:hover{
+	box-shadow:10px 10px 15px #551dad;
+}
+
+#centre_movies{
+	position:relative;
+	left:-140px;
+}
+
+#centre_elvis{
+	position:relative;
+	left:140px;
+}
+aside{
+    float:right;
+	border: 10px outset #551dad ;
+	border-radius: 30px;
+	margin-right: 20px;
+	padding: 1em;
+	width: 25%;
+	background-color: #e4e1e1;
+	max-width:200px;
+    text-decoration: none;
+    z-index: 1;
+    box-shadow:15px 15px 15px #551dad;
+	
+}
+
+
+#options a{
+	text-decoration: none;
+    color:black;
+	opacity:0.7;
+	
+}
+
+#options a h3{
+	border: 5px outset #551dad ;
+	border-radius: 10px;
+	margin: auto;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	background-color:#551dad;
+	width:80%;
+	color:white;
+	
+}
+
+aside#options a:hover{
+	opacity:1;
+	text-decoration: underline;
+}
+
+
+aside#options:active{
+	background-color: white;
+}
+	
+
+
+footer {
+    padding: 5px 5px;
+    border-top: 5px solid #361073;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    clear: both;
+    bottom: 0;
+	text-align: center;
+    background: #551dad;
+    color: #e4e1e1;
+    min-width: 900px;
+	width:100%;
+	margin-left:0.1px;
+	margin-right:0.1px;
+
+
+    
+}
+footer a {
+    text-decoration: none;
+    color: #e4e1e1;
+    padding:10px;
+}
+footer a:hover {
+    background-color: #361073;
+    border-radius: 10px;
+}
+#company-name, #address, #mail, #links { 
+    font-size: smaller;
+    text-decoration: none;
+}
+
+footer .headericon {
+    width:20%;
+    max-width: 200px;;
+}
+
+.bio {
+    height: 160px;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+
+.info {
+    margin-left: 20px;
+    font-size: smaller;
+}
+
+.trailer {
+    display:block;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #551dad;
+    color:#e4e1e1;
+    padding:5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top:10px;
+    text-align: center;
+    
+}
+
+.trailer:hover{
+	box-shadow:5px 5px 10px #551dad;
+}
+
+.movie{
+	background-color: #e4e1e1;
+	column-count:3;
+	border-radius:50px;
+    font-size: small;
+	width:768px;
+    height:210px;
+	margin:auto;
+	box-shadow:5px 5px 10px black ;
+}
+
+.movie table{
+	background-color:#c3c3c3;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid #551dad;
+    font-size: smaller;
+    width: fit-content;
+    display:block;
+
+}
+
+.movie img{
+    border-radius: 30px;
+    margin-left:10px;
+	max-width:50%;
+}
+.movie p {
+    margin-bottom: 3em;
+}
+.movie table thead tr th{
+	column-span:all;
+}
+dl dt {
+    text-align: center;
+    padding:10px;
+    font-size: 2em;
+    color: #551dad;
+}
+
+
+
+.upgrades {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #e4e1e1;
+    padding:10px;
+    min-width: 1000px;
+	max-width: 1500px;
+    border-radius: 5%;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.upgrades h3 {
+    color: #551dad;
+    text-align: center;
+}
+
+.upgrade_pics{
+	float:right;
+	max-width:400px;
+	opacity:1;
+	position:relative;
+}
+
+.upgrade_pics img{
+	border-radius:30px;
+}
+
+
+#mail_pic{
+	border: 10px outset #551dad ;
+	border-radius: 30px;
+	max-width:150px;
+	margin:auto;
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:10px;
+	max-height:100px;
+	box-shadow:10px 10px 10px #551dad;
+}
+
+#mail_pic img{
+	position:relative; top:-20px;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+    
+}
+
+.teamList caption{
+	font-weight:bold;
+	text-decoration:underline;
+	padding:5px;
+	font-size:1.6em;
+}
+
+fieldset legend{
+	font-size:1.5em;
+	font-weight:bold;
+    color:#361073;
+}
+
+form {
+    display: block;
+}
+
+fieldset {
+	width:50%;
+	font-size:1.2em;
+    background-color: #e4e1e1;
+    color: #551dad;
+}
+
+#submitsection input{
+	margin-top:10px;
+	font-size: 2em;
+	background-color:#551dad;
+	color:#e4e1e1;
+    border-radius: 10px;
+}
+
+.maincontent    {
+/* Defines style for main content. Background colour, text font, etc */
+    background-color: #e4e1e1;
+    color: black;
+	margin: auto;
+	text-align:center;
+	max-width:1200px;
+}
+
+
+/* This tag is specifically for the names of movies. */   
+/* Universal elements */
+    #links:link, #links:active, #links:hover, #links:visited { 
+        color: blue;
+        text-decoration: none; 
+    }
+
+    #intro { /* What is this for? */
+        
+    margin: auto;
+    border: 2px double red;
+    text-align: center;
+    }
+
+    .info { /* What is this for? */
+        
+    display:inline-block;
+    }
+
+header  {
+	/* Only for use in the title of the websites :) */
+	text-align: center;
+	background-color: #551dad;
+	height: 50px ;
+	overflow: hidden;
+	padding: 10px 15px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10px;
+	min-width: 1000px;
+	margin:0px;
+	z-index:9;
+}
+
+#headericon {
+	margin-top: 0px;
+	margin-bottom:0px;
+	z-index: -1;
+	display: inline;
+	height: 50px;
+	float: left; 		
+}
+
+header a { 
+	float: right;
+	color: #e4e1e1; 
+	text-decoration: none;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	border-left: 3px solid #361073; 
+}
+
+header a:hover { 
+	background-color: #361073;
+}
+
+.titlebar   {
+	text-align: center;
+	font-family: bold;
+	color: #551dad;
+}
+
+
+#heading h1{
+	float:left;
+	margin-left:150px;
+	position:relative; top:-25px;
+	color:white;
+	border: 10px inset #ccacfc ;
+	border-radius: 15px;	
+	padding-left:10px;
+	padding-right:10px;
+}
+	
+.teamList{
+	column-count:2;
+	width: 85%;
+	background-color: #e4e1e1;
+	border-radius:50px;
+	text-align:center;
+	margin:auto;
+    margin-bottom: 20px;
+    padding:10px;
+    min-width: 1100px;
+	max-width: 2000px;
+	box-shadow:10px 10px 10px #551dad ;
+}
+
+.teamList table {
+    border:2px solid #551dad;
+    background-color: white;
+}
+
+.teamlist table td, th, tr {
+    background-color: #e4e1e1;
+}
+
+#fill {
+    border: none;
+    background-color: white;
+}
+
+#trailer_page{
+	text-align: center;
+	color:#361073;
+}
+
+.trailer_section{
+	width: 45%;
+	background-color: #e4e1e1;
+	border-radius:50px;
+	min-width:700px;
+	max-width:1000px;
+	margin:auto;
+	padding-bottom:10px;
+	box-shadow:10px 10px 10px #551dad ;
+	
+}
+
+#trailer_section table{
+	border: 1px solid black;
+	background-color:white;
+}
+
+.space{
+	margin-bottom:100px;
+}
+
+.enhancement{
+	text-align:center;
+	margin:auto;
+}
