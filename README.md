@@ -32,19 +32,19 @@ N-A-Movies is a PHP-based web application that provides users with an engaging p
 
 To set up the N-A-Movies application on your local machine, follow these steps:
 
-1. **Clone the repository**:
+1. Clone the repository**:
    ```bash
    git clone https://github.com/NathanTrung/N-A-Movies.git
    cd N-A-Movies
 
-2. **Install PHP and MySQL: Ensure that you have PHP and MySQL installed on your machine. You can install them using XAMPP or MAMP.
+2. Install PHP and MySQL: Ensure that you have PHP and MySQL installed on your machine. You can install them using XAMPP or MAMP.
 
-3. **Set up a database:
+3. Set up a database:
 
     Create a new MySQL database for the application.
     Import the provided SQL file (if available) to set up the required tables and data.
 
-4. **Configure database connection: Update the database connection settings in the config.php file to match your local database credentials.
+4. Configure database connection: Update the database connection settings in the config.php file to match your local database credentials.
 
 ## Usage
 
@@ -54,7 +54,7 @@ Once the installation is complete, you can navigate to the project directory and
 
 To run the application using the PHP built-in server with the Live Ad extension, follow these steps:
 
-1. **Ensure the Live Ad extension is installed and enabled: Make sure the Live Ad extension is installed in your PHP environment. You can check this by running:
+1. Ensure the Live Ad extension is installed and enabled: Make sure the Live Ad extension is installed in your PHP environment. You can check this by running:
     ```bash
     php -m | grep live_ad
 
@@ -76,4 +76,4 @@ Contributions are welcome! If you would like to contribute to the project, pleas
 
 ## Contact
 
-For any inquiries or issues, please contact me at [nathantrung5@gmail.com].
+For any inquiries or issues, please contact me at nathantrung5@gmail.com.
