@@ -54,11 +54,11 @@ Once the installation is complete, you can navigate to the project directory and
 
 To run the application using the PHP built-in server with the Live Ad extension, follow these steps:
 
-    Ensure the Live Ad extension is installed and enabled: Make sure the Live Ad extension is installed in your PHP environment. You can check this by running:
+1. **Ensure the Live Ad extension is installed and enabled: Make sure the Live Ad extension is installed in your PHP environment. You can check this by running:
     ```bash
     php -m | grep live_ad
 
-Start the PHP built-in server: Run the following command in your terminal:
+2. **Start the PHP built-in server: Run the following command in your terminal:
     ```bash
     php -S 0.0.0.0:3000
 
